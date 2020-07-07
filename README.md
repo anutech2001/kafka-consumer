@@ -1,3 +1,3 @@
-Run a consumer
-mvn clean install
+# Run a consumer
+mvn clean install\
 mvn spring-boot:run
