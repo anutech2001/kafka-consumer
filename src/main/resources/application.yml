@@ -1,12 +1,14 @@
 spring:
     application:
       name: "Kafka Consumer"
-    kafka:
-      bootstrap-servers: localhost:9092
-      producer:
-        key-serializer: org.apache.kafka.common.serialization.StringSerializer
-        value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    # kafka:
+    #   bootstrap-servers: localhost:9092
+    #   producer:
+    #     key-serializer: org.apache.kafka.common.serialization.StringSerializer
+    #     value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    #   consumer:
+    #     group-id: "myGroup"
 server:
-  port: 8201
+  port: 8202
 
       
